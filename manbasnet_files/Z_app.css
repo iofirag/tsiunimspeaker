@@ -1,0 +1,535 @@
+/******************** MASTERPAGE*********************/
+html
+ {
+background:#ffffff;
+color:#000000;
+}
+#header .office_name {
+color:#f9f6e1;
+}
+#header .sub_office_name {
+ color:#f9f6e1;
+}
+#header .title_page_name {
+ color:#f9f6e1;
+}
+#header .svivat_pituah {
+ color:#FFFF00;
+}
+#footer {
+    background-color:#d0c6d6;
+    color:#421b56; 
+}
+#main_menu {
+    background-color:#d5c88d;
+}
+.help {
+    color:#000000;
+}
+.toplink
+{
+    text-decoration: none !important;
+    font-size: 1em !important;
+    color:#421b56 !important;
+}
+/******************** MASTERPAGE END*********************/
+
+/******************** MENU*********************/
+.PrettyMenu ul.AspNet-Menu,
+.PrettyMenu ul.AspNet-Menu ul
+{
+    background-color:#d5c88d;
+}
+.PrettyMenu ul.AspNet-Menu li
+{
+    background-color:#d5c88d;
+}
+.PrettyMenu ul.AspNet-Menu li a,
+.PrettyMenu ul.AspNet-Menu li span
+{
+color:#000000; /* the color of the font on menu items */
+border:1px solid #000000;
+}
+.PrettyMenu ul.AspNet-Menu li a:hover,
+.PrettyMenu ul.AspNet-Menu li span:hover,
+.PrettyMenu ul.AspNet-Menu li span.Asp-Menu-Hover
+{     
+   color:#fffbf7;	
+}
+
+.PrettyMenu ul.AspNet-Menu li:hover,
+.PrettyMenu ul.AspNet-Menu li.AspNet-Menu-Hover
+{
+    background-color:#6c497f;
+    color:Red;
+}
+.PrettyMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li a,
+.PrettyMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li span
+{
+    border-right:1px solid  #8e6f9e;
+}
+.PrettyMenu .AspNet-Menu-Horizontal ul.AspNet-Menu ul li a,
+.PrettyMenu .AspNet-Menu-Horizontal ul.AspNet-Menu ul li span
+{
+    border:1px solid #d5c88d;
+}
+
+/*
+.PrettyMenu .AspNet-Menu-NonLink
+ {
+  color:#ffffff;   
+ }
+*/
+
+
+
+/**MENU**/
+ /*********/
+/******************** MENU END*********************/
+/*.PlusMinus
+{
+	 border:#ffffff 1px solid;
+	 color:#ffffff;
+ }
+	 
+.font
+{
+
+color:#ffffff;
+	
+	}
+*/	
+#lblHelp
+{
+    color:#421b56;
+    }
+#lblWriteUs
+{
+    color:#421b56;
+}
+#lblExit, .lblExitClass
+{
+    color:#421b56 !important;
+    text-decoration:none !important;
+}
+/******************** EDU - תשתית*********************/
+ .HeaderPageTitle
+{
+   color: #000000;
+   background-color: #f1eef3;
+}
+.ControlContainer
+{
+  /*margin: 0px 20px 0px 5px;*/
+}
+ .SearchBar
+{
+  BACKGROUND-COLOR: #f1eef3;
+}
+.TableHeader
+{
+    COLOR:#000000;
+    BACKGROUND-COLOR: #c9c0cf;
+}
+.TableFirstRow
+{
+    COLOR:#000000;
+    BACKGROUND-COLOR: #ffffff;
+}
+.TableSecondRow
+{
+    COLOR:#000000;
+    BACKGROUND-COLOR: #e7e2ea;
+}
+.TableSelectedRow
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #e7dfba;
+}
+/************ end EduGrid ********/
+
+/************ EduGridView ********/
+.EduGridViewHeader
+{
+    COLOR:#000000;
+    BACKGROUND-COLOR: #b3a3bd;
+}
+.EduGridViewRow
+{
+    COLOR:#000000;
+    BACKGROUND-COLOR: #ffffff;
+}
+.EduGridViewAlternativeRow
+{
+    COLOR:#000000;
+    BACKGROUND-COLOR: #e7e2ea;
+}
+.EduGridViewSelectedRow
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #e7dfba;
+}
+.NoSelection
+{
+    
+}
+.EduGridViewFooter
+{
+ BACKGROUND-COLOR: #b3a3bd;
+ /*border-color: #eaf5d5;
+ border-bottom-style: solid;
+ border-top-style: solid;
+ border-bottom-width: 1px;
+ border-top-width: 1px;
+ COLOR:#000000;
+ text-align:right;*/
+}
+.EduGridViewSortAscending
+{
+	background-position: 5px center;
+	background-image: url(images/SortUp.gif);
+	background-repeat: no-repeat;
+}
+
+.EduGridViewSortDescending
+{
+	background-position: 5px center;
+	background-image: url(images/SortDown.gif);
+	background-repeat: no-repeat;
+}
+/************ end EduGridView ********/
+
+
+.InputDefault
+{
+    COLOR: #000000;   
+    BACKGROUND-COLOR: #ffffff;
+}
+A
+{
+    COLOR:#421b56;
+    text-decoration: underline;
+}
+A:activ
+{
+color:#421b56;
+/*text-decoration: underline;*/
+}
+A:link
+{
+ color:#421b56;
+ text-decoration: underline;
+}
+A:visited
+{
+color:#421b56;
+text-decoration: underline;
+}
+A:hover
+{
+ color:#910320;
+ /*text-decoration: underline;*/
+}
+.MandatoryField
+{
+    COLOR:#890439;
+}
+.Button
+{
+    BORDER-RIGHT:#d5c88d   1px solid;
+    BORDER-TOP:#d5c88d  1px solid;
+    BORDER-LEFT:#d5c88d  1px solid;
+    BORDER-BOTTOM:#d5c88d  1px solid ;
+    BACKGROUND-COLOR:#654178;
+    COLOR:#ffffff;
+   
+    
+}
+
+.Button2
+{
+    border:1px solid #654178;
+    background-color:#d0c6d6;
+    color: #481a60;
+}
+.Paging
+{
+    COLOR: #421b56;
+    BACKGROUND-COLOR:#ffffff;
+}
+.TextBold
+{
+    COLOR: #000000;
+}
+.TextBoldMnt
+{
+    font-size: 1em;  
+    font-weight: bold;
+    font-family: Arial;
+    color: #4f335e;
+}
+.TextNormal
+{
+    COLOR: #000000;
+}
+.TextComment
+{
+    COLOR: #000000;
+}
+Fieldset
+{
+    border:1px solid #654178;
+    color:#68457b;
+    padding: 0px 15px 5px 5px;
+}
+Legend
+{
+    COLOR:#68457b;
+}
+.TabOff
+{
+    BORDER-RIGHT:#654178  1px solid;
+    BORDER-TOP:#654178  1px solid;
+    BORDER-LEFT:#654178  1px solid;
+    /*BORDER-BOTTOM:#654178  1px solid;*/
+    BACKGROUND-COLOR:#d5c88d;
+	COLOR:#654178;
+}
+.TabOn
+{
+    BORDER-RIGHT:#654178   1px solid;
+    BORDER-TOP:#654178  1px solid;
+    BORDER-LEFT:#654178  1px solid;
+    BACKGROUND-COLOR:#f0f0f0;
+	COLOR:#f5f2e3;
+}
+
+.TabIn
+{
+    BORDER-RIGHT:#644177 1px solid;
+    BORDER-BOTTOM:#644177  1px solid;
+    BORDER-LEFT:#644177  1px solid;
+    BACKGROUND-COLOR:#F5F2E3;                                                        
+}
+
+.TabInFill
+{
+  BACKGROUND-COLOR:#ffffff;                                             
+}
+.TabOver
+{
+    BORDER-RIGHT:#371748  1px solid;
+    BORDER-TOP:#371748  1px solid;
+    BORDER-LEFT:#371748  1px solid;
+    BACKGROUND-COLOR:#714e83;
+    COLOR:#ffffff; 
+}
+/*.Heading1
+{
+    COLOR: #2d6873;
+}*/
+.Heading2
+{
+    COLOR: #4f335e;
+}
+.Heading3
+{
+    COLOR: #8a5ba3;
+}
+.Heading4
+{
+    COLOR: #7b670e;
+}
+h2
+{
+    COLOR:#4f335e;
+}
+h3
+{   
+    COLOR:#8a5ba3;
+}
+h4
+{  
+    COLOR:#7b670e;
+}
+
+
+/************  EduWizard ********/
+.edu-wizard .step-content
+{
+    border-color: #654178;
+}
+/************ end EduWizard ********/
+
+/******************** EDU - תשתית   END*********************/
+.expotToExcel
+{
+    background-image:url('../hebrew/images/icon_excel.gif');
+    background-repeat:no-repeat;
+    background-position:left;
+    padding-left:15px;
+}
+.chartDetails
+{
+    width:100%;
+    height:250px;
+}
+.KoteretDefault
+{
+    display:inline-block;
+    background-color: #f1eff4;
+    border: 1px solid #664079;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(102, 64, 121, 0.53);
+}
+.MisgeretGrid
+{
+    border: 1px solid #664079;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow:3px 3px 5px 3px rgba(102, 64, 121, 0.53);
+    padding:10px;
+}
+.HomePageBorder
+{
+    border: 1px solid #664079;
+    border-radius: 15px;
+    border-radius: 15px;
+    box-shadow:3px 3px 5px 3px rgba(102, 64, 121, 0.53);
+    padding:0px;
+    height:180px;
+    width:640px;
+}
+.HomePageBorderNoWidth
+{
+    border: 1px solid #664079;
+    border-radius: 15px;
+    border-radius: 15px;
+    box-shadow:3px 3px 5px 3px rgba(102, 64, 121, 0.53);
+    padding:0px;
+    width:auto;
+}
+.ImageHomePageBorder
+{
+    position:relative;
+    top:-28px;
+    left:-15px;
+    margin-bottom: -28px;
+}
+.HomePageInner
+{
+    width:98%;
+    height:72%;
+    overflow:auto;
+}
+.MisgeretHodaot
+{
+    height: 230px;
+}
+.datepickerimage
+{
+    vertical-align:text-top;
+    margin-right:4px;
+}
+/********************MntIturOvdeyHoraa.aspx **************************/
+#ReshimatOvdim
+{
+    height: 16em;
+    margin-bottom: 7px;
+    padding-right:5px;
+}
+input.Button:disabled,
+input.Button2:disabled{
+    color: GrayText; 
+}
+.Cleaner
+{
+    clear:both;
+}
+ .VisibleFalse
+{
+ display:none;
+}
+.spacer
+{
+    margin-right:15px;
+}
+.smallspace
+{
+    margin-right:10px;
+}
+.ddlCommonItem
+{
+    margin-right:10px;
+}
+
+#HatahBlock
+{
+    background-color: #f1eff4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:100%;
+}
+#DDLBlock
+{
+    margin-bottom:6px;
+}
+.margintb10
+{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.marginb10
+{
+    margin-bottom:10px;
+}
+.floatLeft
+{
+    float:left;
+}
+.floatRight
+{
+    float:right;
+}
+#GridBlock th
+{
+    text-align:right;
+}
+
+/********************MntIturOvdeyHoraa.aspx **************************/
+.marginLeft15
+{
+    margin-left:15px;
+}
+/********************MsbReportMaarechetOved.aspx **************************/
+.ButtonSendEmail
+{
+    BORDER-RIGHT:#d5c88d   1px solid;
+    BORDER-TOP:#d5c88d  1px solid;
+    BORDER-LEFT:#d5c88d  1px solid;
+    BORDER-BOTTOM:#d5c88d  1px solid ;
+    BACKGROUND-COLOR:#ffffff;
+    COLOR:#654178;
+}
+.DivBorder
+{
+  border:1px solid #654178;
+  padding:5px;
+}
+.MarginTopBottom
+  {
+ margin-bottom:5px;
+ margin-top:5px;  
+  }
+  .Padding3px
+  {
+      padding:3px;
+  }
+  a.button_link
+{
+    display:inline-block;
+    font-size:1em;
+    font-weight:bold;
+    line-height:1.1em;
+}
+

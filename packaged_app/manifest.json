@@ -1,0 +1,30 @@
+{
+	"name": "Tsiunim Speaker",
+	"description": "write tsiunim in pages by voice.",
+	"version": "1.0",
+
+	"permissions": [
+
+
+		"tts",
+
+		"videoCapture", 
+		"audioCapture" 
+	],
+
+
+  	
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+	"icons": {
+		/* "128": "icon_128.png" */
+	},
+	"sandbox": {
+		"pages": ["call.html"]
+	},
+  	
+	"manifest_version": 2
+}

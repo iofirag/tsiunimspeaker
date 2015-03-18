@@ -1,0 +1,441 @@
+﻿/**** MDE COMMON ***/
+input.Button:disabled,
+input.Button2:disabled{
+    color: GrayText; 
+}
+.Cleaner
+{
+    clear:both;
+}
+ .VisibleFalse
+{
+ display:none;
+}
+.spacer
+{
+    margin-right:15px;
+}
+.smallspace
+{
+    margin-right:10px;
+}
+.ddlCommonItem
+{
+    margin-right:10px;
+}
+
+#HatahBlock
+{
+    background-color: #f1eff4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:100%;
+}
+#DDLBlock
+{
+    margin-bottom:6px;
+}
+.margintb10
+{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.floatLeft
+{
+    float:left;
+}
+.expotToExcel
+{
+    background-image:url('../hebrew/images/icon_excel.gif');
+    background-repeat:no-repeat;
+    background-position:left;
+    padding-left:15px;
+}
+/**** MDE COMMON END ***/
+/******************** MDE DEFAULT.ASPX *********************/
+#KoteretGrid h2
+{
+    margin:0;
+    padding:0;
+}
+
+#TkufatPeilutBlock
+{
+    width: 30em;
+    display:inline-block;
+}
+.ovedhoraa
+{
+    vertical-align:top;
+    margin-left:10px;
+}
+.rbLine
+{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.datepickerimage
+{
+    vertical-align:text-top;
+    margin-right:4px;
+}
+
+#GridBlock th
+{
+    text-align:right;
+}
+.kohaviot
+{
+    color:Red;
+}
+/******************** MDE DEFAULT.ASPX END ********************/
+/******************** MDE MdePirteyEruaHaaracha.aspx BEGIN ********************/
+.Divline
+{
+    margin-top:15px;
+}
+.BigDiv
+{
+    width:79em;
+}
+.RightDiv
+{
+   float:right;
+   width:43em;     
+}
+.LeftDiv
+{
+    float:right;
+    width:35em;  
+}
+.MdeLabel
+{
+    display:inline-block;
+    width:85px;
+}
+.Label2
+{
+    margin: 0px 10px 0px 10px;
+}
+.InlineDiv
+{
+    display:inline;
+}
+.TextBox
+{
+    width:28em;
+}
+.TeurKvutsaDDL
+{
+    width: 16em; 
+}
+.TkufatLimudDDL
+{
+    width: 8em;     
+}
+.SugEruaDDL
+{
+    width: 10em; 
+}
+#Markivim
+{
+    height:24em;
+}
+#Markivim th
+{
+    text-align:right;
+}
+.Sahacol
+{
+    float:left;
+    margin-left:15px;
+}
+.MarkivimButtons
+{
+    margin-right:10px;
+    float:right;
+}
+/******************** MDE MdePirteyEruaHaaracha.aspx END ********************/
+/********************* MdeDivuachHaarachot.aspx *************************************/
+.thMarkivDivuach
+{
+    width:4em;
+    vertical-align:top;
+    border-right:0.1em dotted #915367;
+}
+.footerMarkivDivuach
+{
+    width:4em;
+    vertical-align:top;
+    text-align:center;
+    border-right:0.1em dotted #915367;
+}
+.tdMarkivDivuach
+{
+    width:4em;
+    text-align:center;
+    border-right:0.1em dotted #915367;
+}
+.BorderForTable
+{
+    border-right:0.1em dotted #915367;
+}
+.tdMarkivDivuach input
+{
+    width:60%;
+}
+.FixedTable
+{
+    table-layout:fixed;
+    border-collapse:collapse;
+}
+.divheaderintable
+{
+    overflow:hidden;
+    width:4em;
+}
+.divintablecell
+{
+    width:4em;
+    text-align:center;
+}
+.DivTable
+{
+    direction:ltr;
+    overflow-x:auto;
+    overflow-y:scroll;
+    height:24em;
+ }
+ .TextBoxMarkivim
+ {
+     width:80%;
+     height:3em;
+ }
+ .TextBoxMisparHeged
+ {
+     width:2em;
+ }
+ .DdlHeged
+ {
+     width:70%;
+ }
+ .DdlHegedMarkiv
+ {
+     width:60%;
+     margin-right:2px;
+ }
+.MarkivimRow
+{
+    margin-top:4px;
+}
+.LabelHeara
+{
+    vertical-align:top;
+}
+.LabelHeged
+{
+    margin-left:5px;
+}
+
+.TextBoldLarge
+{
+    font-size: 1.16em;  
+    font-family: Arial;
+    color: #000000;
+    font-weight:bold;
+}
+.DisabledInput
+{
+    background-color: #EBEBE4;
+    border: 1px solid #7F9DB9;
+}
+#ctl00_Main_egvTalmidim td input.DisabledInput
+{
+    width:64%;
+}
+#DivuachMainDiv #divright
+{
+    width:70%;
+    float:right;
+    overflow-y:hidden;
+    overflow-x:auto;
+    border-left:3px solid #915367;
+ }
+#DivuachMainDiv #divleft
+{
+    width:29%;
+    float:left;
+}
+#imgResize,#imgResize2
+{
+    cursor:pointer;
+}
+ .NivutBackground
+ {
+  background:#F1EFF4;    
+ }
+ .PaddingLeft5
+{
+    padding-left:5px;
+}
+ .PaddingLeft20
+{
+    padding-left:20px;
+}
+.LinkTalmid
+{
+    color:#000000 !important;
+    font-weight:bold !important;
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+/********************* MdeDivuachHaarachot.aspx *************************************/
+/********************* MdeDohothHaaracha.aspx *************************************/
+.PanelBchira
+{
+    display:inline-block;
+}
+#ButtonsBlock
+{
+    float:left;
+}
+.cbSpacer
+{
+    margin-right:20px;
+}
+.cbSpacer2
+{
+    margin-right:50px;
+}
+.divKoteret
+{
+    display:inline-block;
+    vertical-align:top;
+}
+.divTochen
+{
+    display:inline-block;
+}
+/********************* MdeDohothHaaracha.aspx *************************************/
+/********************* MdeIshurMenael.aspx *************************************/
+.cb
+{
+    margin-top:7px;
+}
+#dTalmidimMumlacim
+{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width:55em;
+    height:25.2em;
+    background-color:White;
+    border:2px solid black;
+    display:none;
+    overflow:auto;           
+}
+/********************* MdeIshurMenael.aspx *************************************/
+/********************* MdeDivuachKvutsot.aspx *************************************/
+.simunkulam
+{
+    margin-right:22em;
+}
+.simunkulamHeader
+{
+    width:34.2em;
+    height:2em;
+}
+.mt1_5
+{
+    margin-top:1.5em;
+}
+.va_middle
+{
+    vertical-align:middle;
+}
+/********************* MdeDivuachKvutsot.aspx *************************************/
+.Misgeret
+{
+    background-image: url('images/pix.jpg');
+    background-repeat:repeat-x;    
+    height:23px;
+    width:100%;
+}
+.MisgeretRight {
+    background-image: url('images/pina_right.jpg');
+    background-repeat:no-repeat;
+    height:23px;text-align:right;width:20px;
+    float:right;     
+}
+    
+.MisgeretLeft {
+    background-image: url('images/pina_left.jpg');
+    background-repeat:no-repeat;
+    height:23px;text-align:left; width:20px;float:left;
+} 
+.MisgeretBorder
+{
+    border-right:#664079 1px solid;
+    border-bottom :#664079  1px solid;
+    border-left:#664079  1px solid;  
+    padding:10px;  
+    height:27em;
+}
+.Tzel
+{
+    width:459px;
+    height:9px;
+    background-image: url('images/tzel.png'); 
+    background-repeat:no-repeat; 
+    background-position:center;   
+}
+.Padding10
+{
+    padding:10px;
+}
+.kohavim2
+{
+    color:Purple;
+}
+.MessageDiv
+{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width:55em;
+    height:25.2em;
+    background-color:White;
+    border:2px solid black;
+    overflow:auto;
+    z-index:9999;
+}
+.MessageMask{position:absolute; top:0; left:0; min-height:100%; width:100%; background:#FFF; opacity:.75; filter:alpha(opacity=75); z-index:100}
+/******************** MDE MdeNihulHegedim.ASPX *********************/
+#firstRow 
+{
+   height:28px;
+    }
+#firstRow .multySelect
+{
+    width:270px;
+    float:right;
+    }
+#firstRow .multySelect label
+{
+    float:right
+    }    
+#firstRow .multySelect div
+{
+    float:right;
+    width:auto;
+    }   
+ #firstRow .txtField 
+ {
+     float:right ;
+     }  
+.rowFields
+{
+    padding-bottom:10px;
+    }          

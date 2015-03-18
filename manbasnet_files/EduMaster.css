@@ -1,0 +1,436 @@
+html
+{
+    height: 100%;
+    max-height: 100%;
+    max-width:100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    FONT-WEIGHT: normal;
+    FONT-FAMILY: 'Arial';
+    color:#000000;
+    background:#ffffff;
+    /*font-size:1em;*/
+    }
+body
+{
+    height: 100%;
+    max-height: 100%;
+    max-width:100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    /*font-size:1em;*/
+    }
+#edu_main
+{
+    height:100%; 
+    margin:0px;padding:0px;
+    width:100%;
+    overflow: hidden;
+    max-height: 100%;
+    max-width:100%;
+    /*overflow:hidden;*/
+    /*min-height:600px; 
+	overflow: -moz-scrollbars-horizontal;
+	*/}
+.mainContent 
+{
+    top:75px;
+    bottom:15px;
+    right:0;
+    width :100%;
+    position:absolute; /*@*/
+   position:absolute;  /*@*/
+    margin-top:20px;
+    z-index: 4;
+    overflow: auto;
+    background-color:inherit;
+    font-size: 1em;
+    left: 0;
+    }
+/******************** PopupCss *********************/
+.popupMainContent
+{
+    top:25px;
+    bottom:15px;
+    right:0;
+    width :100%;
+    position:absolute;
+    margin-top:20px;
+    z-index: 4;
+    overflow: auto;
+    background-color:inherit;
+    font-size: 1em;
+    left: 0;
+    }
+    
+.PopUpCollapseHeader
+{
+    z-index: 12;
+}
+.headerPopUp 
+{
+    height:100%;
+    font-family :Arial;
+    direction :rtl;
+    position: absolute;
+    margin: 0;top: 0;
+    left: 0;
+    display: block;
+    width: 100%; 
+    z-index: 5;
+ }
+        
+/******************** Content Start *********************/
+ .content 
+ {
+    direction:rtl;
+    font-size:1em;
+    font-family:Arial;
+    display: block;
+    padding: 0 10px 10px 10px;
+    /*margin-top:20px;*/
+    }     
+/******************** Content End *********************/
+
+/******************** Header Start *********************/
+#header 
+{
+    background-image: url('images/header_pix.jpg');
+    background-repeat:repeat-x;
+    height:75px;font-family :Arial;
+    direction :rtl;position: absolute;
+    margin: 0;top: 0;
+    left: 0;display: block;
+    width: 100%;z-index: 5;
+    }
+#EduWaitDiv
+{
+    visibility: hidden;
+    z-index: 9999; 
+    left: 0px; 
+    width: 100%; 
+    position: absolute;
+    top: 50px; 
+    height: 100%; 
+    background-color: white;
+    }
+#EduWait
+{z-index: 9999; 
+    left: 0px;width: 100%; 
+    position: absolute;
+    top: 0px;height: 100%; 
+    background-color: white;}
+#header .header_left {
+    background-image: url('images/header_left.jpg');
+    background-repeat:no-repeat;
+    height:50px;text-align:left;}
+#header .header_right {float:right;height:50px;}
+#header .israel_state 
+{
+	padding-right:1px;font-size:1.2em;
+	font-weight:normal;text-decoration:none;
+	cursor:pointer;
+	position: absolute;
+    right: 25px;
+}
+#header .office_name {color:white;font-weight:normal;
+    padding-right:1px;text-decoration:none;
+    cursor:pointer;}
+#header .sub_office_name {color:white;
+    font-weight:normal;padding-right:1px;
+    text-decoration:none;cursor:pointer;}
+#header .title_page_name {
+    padding-right:5px;font-size:1.6em;
+    font-weight:bold;color:#ffffff;}
+#header .svivat_pituah {
+    text-align:right;font-size:2.8em;
+    font-weight:bold;color:White;
+    /* margin-top:12px; */
+    text-align:center;top:12px;}
+
+/******************** Header End *********************/
+
+/******************** Footer Start *********************/
+
+#footer {height:15px;width: 100%;
+    left: 0;bottom:0;
+    direction:rtl;  position: absolute; /*@*/
+    display: block;background-color:#d2dddb;
+    color:#103f9f;text-align:right;
+    font-family:Arial;font-size:1em;
+    margin: 0;z-index: 5;}
+#footer .footer_right_text {
+    line-height:15px;
+    margin-right:20px;
+    float:right;}
+#footer .footer_center_text {
+    line-height:15px;
+    margin-right:100px;
+    float:right;}
+#footer .footer_left_text {
+    line-height:15px;
+    text-align:left;
+    float:left;
+    margin-left:10px;}
+       
+/******************** Footer End *********************/
+       
+/******************** Menu Bar Start *********************/
+   
+#main_menu {
+    /*abackground-color:#0D6235;*/
+    width:100%;
+    height:25px;
+    position:absolute;
+    z-index:100; top:50px;
+    right:0px;direction:rtl;
+    background-color:#0E43A4;}
+    /*background:url(images/bg_nav.gif) repeat-x scroll 0%;}*/
+/*
+.menu_bar 
+{
+    
+    width:80%;
+    color:white;
+    float:right;
+    vertical-align:bottom;
+}  
+*/
+    
+.help 
+{
+    text-align:left;    
+    padding-left:10px;
+    margin-right:5px; 
+    float:left;
+    padding-top:5px;
+}
+
+#lblHelp
+{
+    color:Yellow;
+    text-decoration: none;
+    font-size: 1em;
+    visibility:visible;
+    }
+#lblWriteUs
+{
+    color:Yellow;
+    text-decoration: none;
+    font-size: 1em;
+    visibility:visible;
+
+}
+#lblExit
+{
+   color:Yellow;
+   text-decoration: none;
+   font-size: 1em;
+  visibility:visible;
+
+}
+
+.PlusMinus
+{
+	
+	 width:12px;
+	 text-align:center;
+	 float:left;
+	 margin:2px;
+	 margin-top:5px;	 
+	 font-size:14px;
+	 font-weight:bold;
+	 cursor:pointer;
+}
+
+
+a:link.PlusMinus
+{
+    color:#ffffff;
+}
+
+A:activ.PlusMinus
+{
+    color:#ffffff;
+}
+
+A:visited.PlusMinus
+{
+    color:#ffffff;
+}
+A:hover.PlusMinus
+{
+    color:#ffffff;
+}
+
+.font
+{
+float:left;
+padding-top:5px;	
+	
+	}
+ 
+/* .help_text {
+    font-family:Arial;
+    font-size:1em;
+    padding-left:10px;
+    line-height:1.2em;
+}*/
+
+/******************** Menu Bar End *********************/
+.msgline{margin-top:25px;}
+/***************** Message Line Start *****************/
+.position {width:0px;}
+.main_back_msg {background-color:#DFE7F5;
+	width:70%;overflow :hidden;
+	float:right;cursor:pointer;}
+.panelPxl{background-color:#ffffff;
+	opacity:0.9;width:70%;
+	overflow :hidden;cursor:pointer;
+	direction: rtl;font-size: 1em;
+	font-weight: lighter;padding: 0;
+	margin: 0;position: absolute;
+	z-index:10;right:0px;
+	float:right;border-left-color:#D8D8D8;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#D8D8D8;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-bottom-color:#D8D8D8;
+	border-bottom-style:solid;
+	border-bottom-width:1px;}
+.panelInfoLine{background-color:#ffffff;
+	opacity:0.9;width:70%;
+	overflow :hidden;cursor:pointer;
+	direction: rtl;font-size: 1em;
+	font-weight: lighter;padding: 0;
+	margin: 0;position: absolute;
+	z-index:10;right:0px;float:right;
+	border-left-color:#5B83BC;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#5B83BC;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-bottom-color:#5B83BC;
+	border-bottom-style:solid;
+	border-bottom-width:1px;}
+.panelWarningLine
+{
+	background-color:#ffffff;
+	opacity:0.9;
+	width:70%;
+	overflow :hidden;
+	cursor:pointer;
+	direction: rtl;
+	font-size: 1em;
+	font-weight: lighter;
+	padding: 0;margin: 0;
+	position: absolute;
+	z-index:10;
+	right:0px;
+	float:right;
+	border-left-color:#FEE619;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#FEE619;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-bottom-color:#FEE619;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	}
+.panelErrorLine
+{
+	background-color:#ffffff;
+	opacity:0.9;
+	width:70%;
+	overflow :hidden;
+	cursor:pointer;
+	direction: rtl;
+	font-size: 1em;
+	font-weight: lighter;
+	padding: 0;margin: 0;
+	position: absolute;
+	z-index:10;right:0px;
+	float:right;
+	border-left-color:#FE2828;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#FE2828;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-bottom-color:#FE2828;
+	border-bottom-style:solid;
+	border-bottom-width:1px;}
+/*fix msgLine margin when working with BulletList*/
+.msg_Short ul {margin-top:0;}
+.msg_Body ul {margin-top:0;margin-bottom:0;}
+.Msg_Header{direction: rtl;font-family: Tahoma;font-size: 1em;font-weight: lighter;padding: 0;margin: 0;}
+.main_back_msg .MsgContent{z-index: 12;font-family: Tahoma;font-size: 1em;font-weight: lighter;}
+.CollapseHeader{z-index: 12;margin-top: 25px;}
+.LongMsgline{margin-right: 16px;}
+.MsgTable{direction: rtl;z-index: 1;}
+.CollapseImage{float: left;vertical-align: middle;padding-top:5px;padding-left:5px;}
+.msg_Body
+{
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+	z-index: 1;
+	font-size: 1em;
+	font-weight: lighter;
+	cursor:pointer;
+	width:90%;
+	background-color:#ffffff;
+	overflow :hidden;
+	float:right;
+	LEFT: 0px !important;
+	}
+	
+#iframe1
+{
+    LEFT: 0px !important;
+    WIDTH: 100%;
+    HEIGHT: auto;
+}
+.msg_Short
+{float: right;width: 90%;overflow: hidden;height: 20px;vertical-align: top;}
+/***************** Message Line End *****************/
+/***************** Client Message Line Start *****************/
+.PageMsgLine {OVERFLOW: auto;WIDTH: 100%;HEIGHT: 20px;BACKGROUND-COLOR: #f0f2ff;}
+.PageInfoLine
+{FONT-WEIGHT: bold;FONT-SIZE: 1em;COLOR: black;FONT-FAMILY: Arial;display:block;}
+.PageWarningLine
+{FONT-WEIGHT: bold;FONT-SIZE:1em;COLOR: black;FONT-FAMILY: Arial;display:block;}
+.PageErrorLine
+{color:black;display:block;font-size:1.2em;font-weight:bold;}
+
+/***************** Client Message Line End *****************/
+
+.hidden-link
+{
+    position: absolute;
+    top: -100;
+}
+.visible-link
+{
+    position: absolute;
+    top: 0;
+}
+#skip {	OVERFLOW: hidden;	POSITION: relative}
+
+h1 {
+	display: inline;
+	font-size:1em;
+	margin:0;
+} 
+h3
+{
+	display: inline;
+	font-size:1em;	
+	margin:0;
+}

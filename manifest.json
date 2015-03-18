@@ -1,0 +1,33 @@
+{
+	"name": "Tsiunim Speaker",
+	"description": "write tsiunim in pages by voice.",
+	"version": "1.0",
+
+	"permissions": [
+		"activeTab", 
+		"input",
+		"tts",
+		"ttsEngine"
+	],
+
+	"content_scripts": [
+		{
+			"matches": [
+                "<all_urls>"
+            ],
+			"js": ["jquery-1.10.2.min.js", "plugin.js"],
+			"css": ["plugin.css"]
+		}
+	],
+
+	"browser_action": {
+    	"default_icon": "icon.png",
+    	"default_popup": "index.html"
+  	},
+  	
+  	"omnibox": {
+        "keyword": "tsiunim"
+    },
+    
+	"manifest_version": 2
+}

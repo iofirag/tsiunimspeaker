@@ -1,0 +1,231 @@
+ .HeaderPageTitle
+{
+   font-weight: bold;
+   font-size:1.5em;
+   font-family: Arial;
+}
+ .SearchBar
+{
+  BACKGROUND-COLOR: #e6ece8;
+}
+.TableHeader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 1em;
+    font-family: Arial;
+}
+.TableFirstRow
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE:1em;
+    BORDER-LEFT: medium none;
+    CURSOR:hand;
+    BORDER-BOTTOM: medium none;
+    font-family: Arial;
+}
+.TableSecondRow
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE:1em;
+    BORDER-LEFT: medium none;
+    CURSOR:hand;    
+    BORDER-BOTTOM: medium none;
+    font-family: Arial;
+}
+.TableSelectedRow
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE:1em;
+    CURSOR: hand;
+    font-family: Arial;
+}
+.InputDefault
+{
+    PADDING-RIGHT: 3pt;
+    PADDING-LEFT: 3pt;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 1em;
+    font-family: Arial;
+}
+A
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 1em;
+    CURSOR:hand;
+    font-family: Arial;
+    TEXT-DECORATION: none;
+}
+A:activ
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 1em;
+    CURSOR:hand;
+    font-family: Arial;
+    TEXT-DECORATION: none;
+}
+A:link
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 1em;
+    CURSOR: hand;
+    
+    font-family: Arial;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 1em;
+    CURSOR: hand;
+    font-family: Arial;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 1em;
+    CURSOR: hand;
+    font-family: Arial;
+    TEXT-DECORATION: none;
+}
+.MandatoryField
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 1em;
+    font-family: Arial;
+}
+.Button
+{
+    CURSOR: hand;
+    FONT-SIZE:1em;
+   font-family: Arial;
+    HEIGHT:1.5em;   
+    FONT-WEIGHT: bold;
+    border-style: solid;    
+}
+.Paging
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE:0.916em;
+}
+.TextBold
+{
+    FONT-SIZE: 1em;  
+    FONT-WEIGHT: bold;
+    font-family: Arial;
+}
+.TextNormal
+{
+    FONT-SIZE: 1em;  
+    font-family: Arial;
+    FONT-WEIGHT: normal;
+}
+.TextComment
+{
+    FONT-SIZE: 0.916em; 
+    font-family: Arial;
+    FONT-WEIGHT: normal;
+}
+Fieldset
+{
+    font-family: Arial;
+   }
+Legend
+{
+    FONT-SIZE: 1em; 
+    FONT-WEIGHT: bold;
+    font-family: Arial;
+}
+.TabOff
+{
+    FONT-SIZE: 1em; 
+    FONT-WEIGHT: bold;
+    font-family: Arial;
+    Text-Align: Center;
+    CURSOR: hand; 
+}
+.TabOn
+{
+    FONT-SIZE: 1em; 
+    FONT-WEIGHT: bold;
+    font-family: Arial;
+    Text-Align: Center;
+    CURSOR: hand; 
+}
+.TabIn
+{
+    FONT-SIZE: 1em; 
+    FONT-WEIGHT: bold;
+    font-family: Arial;         
+    Text-Align: Center;
+    CURSOR: hand; 
+}
+.TabInFill
+{
+   margin-right: 2px;
+   margin-left: 2px;
+   margin-bottom: 2px;
+   margin-top: 2px;                                                      
+}
+.TabOver
+{
+    FONT-SIZE: 1em;
+    FONT-WEIGHT: bold;
+    font-family: Arial;
+    Text-Align: Center;
+    CURSOR: hand; 
+}
+.Heading1
+{
+    FONT-SIZE: 1.16em;
+    FONT-WEIGHT: bold;
+    font-family: Arial;
+}
+.Heading2
+{
+    FONT-SIZE:1em;  
+    FONT-WEIGHT: bold;
+    font-family: Arial;
+}
+.Heading3
+{
+    FONT-SIZE:1em;  
+    FONT-WEIGHT: bold;
+    font-family: Arial;
+}
+
+
+h2
+{
+font-size:1.2em;
+font-weight:bold;
+margin:0px 0px 5px 0px;
+font-family:'Arial';
+}
+h3
+{
+font-size:1.1em;
+font-weight:bold;
+margin:5px 0px 5px 5px;
+font-family:'Arial';
+}
+
+h4
+{   
+font-size:1.1em;    
+font-weight:bold;
+margin:5px;
+font-family:'Arial';
+}
+
+.Button2
+{
+    CURSOR: hand;
+    FONT-SIZE: 1em;
+    font-family: Arial;
+    HEIGHT:1.5em;
+    FONT-WEIGHT:bold;
+    border-style:solid;
+}

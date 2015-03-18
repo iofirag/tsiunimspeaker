@@ -1,0 +1,31 @@
+﻿.popupMenu {
+visibility:hidden;
+background-color:#FFF;
+
+height:120px ;
+width:200px;
+border-style:solid;
+border-color:Gray; 
+border-width:1px;
+/*Yael 15/08/2013*/
+ overflow:auto;
+/*end Yael*/
+}
+
+.popupHover {
+background-position:left top;
+background-color:#F5F7F8;
+width:200px;
+}
+
+.regularText
+{
+font-family:Arial;
+font-size:12px;
+}
+
+.ddlMenu 
+{
+width:200px;
+
+}
